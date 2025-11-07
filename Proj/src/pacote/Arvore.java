@@ -1,3 +1,4 @@
+package pacote;
 public class Arvore {
     private Node root;
     private int totalLinha;
@@ -22,7 +23,7 @@ public class Arvore {
     public void setTotalPalavras(int totalPalavra){
         this.totalPalavra = totalPalavra++;
     }
-
+    /*
     private Node inserir(Node node, Palavra palavra){
         if(node == null){
             return new Node(palavra);
@@ -34,6 +35,6 @@ public class Arvore {
         }else if(comparaResultado < 0){
             node.setRight(inserir(node.getRight(), palavra));
         }
-    }
+    }*/
 
 }

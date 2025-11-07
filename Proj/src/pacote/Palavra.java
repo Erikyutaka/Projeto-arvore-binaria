@@ -1,3 +1,5 @@
+package pacote;
+
 public class Palavra {
     private String palavra;
     private int ocorrencias;
