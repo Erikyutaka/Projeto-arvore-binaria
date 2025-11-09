@@ -4,8 +4,7 @@ public class Node {
     private Palavra elemento;
     private Node left;
     private Node right;
-    //inclusão do nó pai
-    private Node pai;
+
 
     public Node(Palavra elemento) {
         this.elemento = elemento;
@@ -31,3 +30,4 @@ public class Node {
     }
 }
 
+    
